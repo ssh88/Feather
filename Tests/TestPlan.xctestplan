@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "5A6A6ABA-7EB1-4DC2-A0AC-EFCC056CB6A5",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "Feather",
+          "name" : "Feather"
+        }
+      ]
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "FeatherTests",
+        "name" : "FeatherTests"
+      }
+    }
+  ],
+  "version" : 1
+}
